@@ -1,34 +1,17 @@
-2025-03-07 18:38:02.930 | INFO     | __main__:somar:7 - 2
-2025-03-07 18:38:02.930 | INFO     | __main__:somar:8 - 3
-2025-03-07 18:38:02.930 | INFO     | __main__:somar:9 - 5
-2025-03-07 18:38:22.496 | INFO     | __main__:somar:7 - 2
-2025-03-07 18:38:22.496 | INFO     | __main__:somar:8 - 3
-2025-03-07 18:38:22.496 | INFO     | __main__:somar:9 - 5
-2025-03-07 18:38:35.887 | INFO     | __main__:somar:7 - 2
-2025-03-07 18:38:35.887 | INFO     | __main__:somar:8 - 3
-2025-03-07 18:38:35.887 | INFO     | __main__:somar:9 - 5
-2025-03-07 18:45:55.287 | INFO     | __main__:somar:8 - 2
-2025-03-07 18:45:55.287 | INFO     | __main__:somar:9 - 3
-2025-03-07 18:45:55.287 | INFO     | __main__:somar:10 - 5
-2025-03-07 18:46:25.580 | INFO     | __main__:somar:8 - 2
-2025-03-07 18:46:25.580 | INFO     | __main__:somar:9 - 3
-2025-03-07 18:46:25.580 | INFO     | __main__:somar:10 - 5
-2025-03-07 18:51:09.480 | INFO     | __main__:somar:7 - 2
-2025-03-07 18:51:09.480 | INFO     | __main__:somar:8 - 3
-2025-03-07 18:51:32.268 | INFO     | __main__:somar:8 - 2
-2025-03-07 18:51:32.271 | INFO     | __main__:somar:9 - 3
-2025-03-07 18:51:32.271 | ERROR    | __main__:<module>:13 - An error has been caught in function '<module>', process 'MainProcess' (13728), thread 'MainThread' (37568):
+2025-03-09 00:20:29.683 | INFO     | __main__:somar:8 - 2
+2025-03-09 00:20:29.683 | INFO     | __main__:somar:9 - 3
+2025-03-09 00:20:29.683 | ERROR    | __main__:<module>:13 - An error has been caught in function '<module>', process 'MainProcess' (5148), thread 'MainThread' (39404):
 Traceback (most recent call last):
 
 > File "C:\Users\gilso\workspace\jornada\aula09_bootcamp_python\exemplo.py", line 13, in <module>
     somar(2, "3")
-    └ <function somar at 0x000001D2AB5E7920>
+    └ <function somar at 0x0000025FDAA9BCE0>
 
   File "C:\Users\gilso\workspace\jornada\aula09_bootcamp_python\exemplo.py", line 10, in somar
     logger.info(x + y)
     │      │    │   └ '3'
     │      │    └ 2
-    │      └ <function Logger.info at 0x000001D2AB5E7380>
+    │      └ <function Logger.info at 0x0000025FDAA9B600>
     └ <loguru.logger handlers=[(id=0, level=10, sink=<stderr>), (id=1, level=10, sink='meu_app.log')]>
 
 TypeError: unsupported operand type(s) for +: 'int' and 'str'

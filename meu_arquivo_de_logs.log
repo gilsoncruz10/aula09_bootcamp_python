@@ -1,0 +1,4 @@
+2025-03-09T00:23:20.390247-0300 INFO Chamando função 'somar' com args (2, 3) e kwargs {} utils_log.py
+2025-03-09T00:23:20.390247-0300 INFO Função 'somar' retornou 5 utils_log.py
+2025-03-09T00:23:20.390247-0300 INFO Chamando função 'somar' com args (2, 7) e kwargs {} utils_log.py
+2025-03-09T00:23:20.390247-0300 INFO Função 'somar' retornou 9 utils_log.py
